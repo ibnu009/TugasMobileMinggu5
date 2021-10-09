@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_movies">
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.ibnu.submission2jetpack.ui.movie.MovieFragment"
+        android:label="@string/movies"
+        tools:layout="@layout/movie_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.ibnu.submission2jetpack.ui.tvshow.TvShowFragment"
+        android:label="@string/tv_show"
+        tools:layout="@layout/tv_show_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="com.ibnu.submission2jetpack.ui.people.PeopleFragment"
+        android:label="@string/people"
+        tools:layout="@layout/people_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.ibnu.submission2jetpack.ui.favorite.FavoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/favorite_fragment" />
+
+</navigation>

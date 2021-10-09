@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_movies"
+        android:icon="@drawable/ic_cinema"
+        android:title="@string/movies" />
+
+    <item
+        android:id="@+id/navigation_tvshow"
+        android:icon="@drawable/ic_television"
+        android:title="@string/tv_show" />
+
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/ic_user"
+        android:title="@string/people" />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/ic_heart"
+        android:title="@string/favorite" />
+
+</menu>
